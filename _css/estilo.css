@@ -1,0 +1,79 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+body{
+
+	background-color: #DCDCDC;
+	color: #008B8B;
+	font-family: arial, san serif;
+}
+
+input{
+	display: block;
+	height: 55px;
+	width: 400px;
+	margin:10px;
+	border-radius: 20px;
+	border: 1.5px solid #008B8B;
+	font-size:14pt;
+	font-family:arial;
+	padding: 10px 20px;
+}
+
+div#corpo-form{
+	width: 420px;
+	margin:130px auto 0px auto;
+
+}
+div#corpo-form-cad{
+	width: 420px;
+	margin:70px auto 0px auto;
+
+}
+div#corpo-form h1{
+	text-align:center;
+	padding: 15px;
+	}
+
+a{
+	color:#008B8B;
+	text-decoration: none;
+	text-align:center;
+	display: block;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+input[type=submit]{
+	background-color: #008B8B;
+	color: #ffffff;
+	cursor:pointer;
+}
+select{
+	height: 50px;
+	width: 400px;
+	margin:10px;
+	border-radius: 20px;
+	border: 1.5px solid #008B8B;
+	font-size:14pt;
+	font-family:arial;
+	padding: 10px 20px;
+
+}
+
+div#msg-sucesso{
+	width: 420px;
+	margin:10px auto;
+	color:green;
+	font-size: 14pt;
+}
+
+div.msg-erro{
+	width: 420px;
+	margin:10px auto;
+	color:red;
+	font-size: 14pt;
+}
